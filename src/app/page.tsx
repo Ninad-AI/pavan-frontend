@@ -7,7 +7,7 @@ import { startStreamingMic, type StreamingMicHandle } from "./utils/audioUtils";
 type FlowState = "idle" | "auth" | "payment" | "active";
 type CallPhase = "connecting" | "listening" | "speaking";
 
-const WS_URL = process.env.NEXT_PUBLIC_BACKEND_WS_URL || "ws://localhost:8000/ws/audio";
+const WS_URL = process.env.NEXT_PUBLIC_BACKEND_WS_URL || "ws://localhost:8000/ws/audio/telugu2";
 
 const CREATOR = {
   name: "Pavan Kumar",
