@@ -468,19 +468,15 @@ export default function Home() {
               <h2 className="text-[10px] sm:text-sm md:text-base text-rose-300 font-bold tracking-[0.15em] sm:tracking-[0.2em] uppercase mb-3 sm:mb-4 animate-fade-in-up">
                 • {CREATOR.role}
               </h2>
-              <br />
-
               <h1 className="text-[3.2rem] sm:text-6xl md:text-8xl font-black tracking-tighter leading-[0.9] mix-blend-exclusion">
                 <span className="block">{CREATOR.name.split(" ")[0]}</span>
                 <span className="block text-transparent bg-clip-text bg-gradient-to-r from-white to-white/50">
                   {CREATOR.name.split(" ").slice(1).join(" ").toLowerCase()}.
                 </span>
               </h1>
-              <br />
-              <br />
 
               {/* Desktop CTA */}
-              <div className="animate-fade-in-up mt-6 sm:mt-8 shrink-0 hidden md:block w-full sm:w-auto">
+              <div className="animate-fade-in-up mt-5 sm:mt-6 shrink-0 hidden md:block w-full sm:w-auto">
                 <button
                   onClick={handleStartTalking}
                   className="group relative inline-flex items-center justify-center rounded-full bg-white text-black font-bold text-sm sm:text-base tracking-wide w-full sm:w-[220px] h-14 sm:h-16 shadow-[0_0_40px_rgba(255,255,255,0.3)] hover:shadow-[0_0_60px_rgba(255,255,255,0.5)] hover:scale-105 transition-all duration-300"
@@ -536,7 +532,7 @@ export default function Home() {
             </div>
 
             {/* Mobile CTA */}
-            <div className="animate-fade-in-up mt-8 md:hidden w-full flex justify-center z-30">
+            <div className="animate-fade-in-up mt-6 md:hidden w-full flex justify-center z-30">
               <button
                 onClick={handleStartTalking}
                 className="group relative inline-flex items-center justify-center rounded-full bg-white text-black font-bold text-sm tracking-wide w-[200px] h-14 sm:h-16 shadow-[0_0_40px_rgba(255,255,255,0.3)] hover:shadow-[0_0_60px_rgba(255,255,255,0.5)] hover:scale-105 transition-all duration-300"
