@@ -14,7 +14,6 @@
   --color-text-muted: #9CA3AF;
   --font-sans: var(--font-outfit), system-ui, -apple-system, sans-serif;
   --font-serif: var(--font-playfair), Georgia, serif;
-  --font-mono: var(--font-geist-mono);
 
   --animate-fade-in-up: fade-in-up 1s cubic-bezier(0.16, 1, 0.3, 1) both;
   --animate-float-sharp: float-sharp 8s ease-in-out infinite;
